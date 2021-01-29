@@ -35,3 +35,7 @@ Run the script via :
 > python egen.py
 
 
+To run the file at 9 am everyday, run a cron job with the following parameters written inside your crontab file:
+
+0 9 * * * /home/Egen.py
+
